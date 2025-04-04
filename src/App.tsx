@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import DemoPlayerThemeComponent from './pages/DemoPlayerThemeComponent';
 import DemoHoverComponent from './pages/DemoHoverComponent';
 import DemoClickComponent from './pages/DemoClickComponent';
+import DemoScrollComponent from './pages/DemoScrollComponent';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/demo-player-theme" element={<DemoPlayerThemeComponent />} />
         <Route path="/demo-hover" element={<DemoHoverComponent />} />
         <Route path="/demo-click" element={<DemoClickComponent />} />
+        <Route path="/demo-scroll" element={<DemoScrollComponent />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

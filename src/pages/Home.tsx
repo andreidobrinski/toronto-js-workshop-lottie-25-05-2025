@@ -60,6 +60,16 @@ Introducing the dotlottie player, some simple event handling to control an anima
               </p>
             </Link>
 
+            <Link 
+              to="/demo-scroll" 
+              className="group bg-gray-800/50 backdrop-blur-lg p-[min(4vw,2rem)] rounded-2xl border border-gray-700 hover:border-[#00DDB3]/50 hover:bg-[#00DDB3]/5 transition-all duration-300 flex flex-col items-center justify-center aspect-[4/3]"
+            >
+              <h3 className="text-2xl font-semibold text-white mb-4 group-hover:text-[#00DDB3] transition-colors duration-300">Scroll Demo</h3>
+              <p className="text-gray-400 text-lg opacity-80 group-hover:opacity-100 group-hover:text-[#00DDB3]/90 leading-relaxed transition-colors duration-300">
+                Animating a component based on scroll
+              </p>
+            </Link>
+
           </div>
         </div>
       </div>
